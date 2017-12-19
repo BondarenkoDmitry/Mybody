@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.dvb.mybody.CatalogActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:adjustViewBounds="false"
+        android:longClickable="false"
+        app:srcCompat="@mipmap/body_lines_center"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/heightEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="5"
+            android:hint="@string/height"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/shouldersEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/heightEdit"
+            android:ems="5"
+            android:hint="@string/shoulders"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/chestEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shouldersEdit"
+            android:ems="5"
+            android:hint="@string/chest"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/armsEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chestEdit"
+            android:elevation="13dp"
+            android:ems="5"
+            android:hint="@string/arms"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/bellyEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/armsEdit"
+            android:ems="5"
+            android:hint="@string/belly"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/hipEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bellyEdit"
+            android:ems="5"
+            android:hint="@string/hip"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/dayEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="80dp"
+        android:ems="8"
+        android:hint="Day | Mounth | Year"
+        android:inputType="text|date"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/weight_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="50dp"
+        android:ems="5"
+        android:hint="Weight"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

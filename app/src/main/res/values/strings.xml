@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyBody</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="height">Height</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="chest">Chest</string>
+    <string name="arms">Arms</string>
+    <string name="belly">Belly</string>
+    <string name="hip">Hip</string>
+    <string name="measure_your_body">Measure your body</string>
+    <string name="hasnt_been_saved">Changes have not been saved</string>
+    <string name="saved">New measurement has been added</string>
+    <string name="updating_error">An error occurred while updating</string>
+    <string name="update_successful">It has been updated</string>
+</resources>
